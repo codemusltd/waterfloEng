@@ -1,0 +1,12 @@
+html{
+    background: black;
+  }
+  
+  #services{
+    width:50%;
+    margin:auto;
+    font-variant:small-caps;
+    font-weight: bolder;
+    font-family: Helvetica;
+  }
+  

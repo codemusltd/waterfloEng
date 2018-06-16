@@ -1,0 +1,11 @@
+html{
+    background: black;
+  }
+  
+  #staff{
+    width:30%;
+    margin:auto;
+    font-variant:small-caps;
+    font-weight: bolder;
+    font-family: Helvetica;
+  }

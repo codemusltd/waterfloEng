@@ -1,0 +1,31 @@
+/* REMEMBER @import = w3.css for icons, import into index.js */
+/* //ALSO get: */
+/* https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css */
+
+html{
+    font-size:16px;
+    font-family: helvetica;
+  }
+  
+  .w3-communicate{
+    background: white;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .w3-helvetica{
+    font-family: helvetica
+  }
+  .w3-small-caps{
+    font-variant: small-caps;
+  }
+  
+  div[id=contact] > div{
+    text-align: center;
+  }
+  
+  span[id=phone]{
+    font-size: 3rem;
+    color: orange;
+  }

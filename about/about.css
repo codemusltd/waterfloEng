@@ -1,0 +1,53 @@
+html{
+    font-size: 16x;
+  }
+
+body{
+  border:1.5em solid silver;
+}
+    
+.w3-helvetica {
+  font-family: helvetica;
+}
+
+h3{
+  color:silver ;
+  font-variant: small-caps;
+  text-shadow: 0.1rem 0.1rem 0.1rem grey;
+  text-align: left;
+}
+
+.h3border{
+  margin: 2em;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+.w3-capitalize{
+  font-variant:small-caps;
+  font-weight:bolder;
+  border-left: 0.8em solid white;
+  text-decoration: overline;
+}
+
+.orangeYellow{
+  color: orange;
+  list-style-type: none;
+  text-shadow: 0.01em 0.01em 0.1em yellow;
+}
+
+ul{
+  background:black;
+  color: white;
+  list-style-type: none;
+}
+
+li{
+  margin-top: 0.5em;
+}
+
+.hiddenVisibility{
+  visibility: hidden;
+}
