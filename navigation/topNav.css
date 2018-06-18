@@ -1,0 +1,15 @@
+/*navBar start/////////////////////////////////////////////////////////*/
+#navBar{
+    background:url('http://res.cloudinary.com/fatso/image/upload/e_cartoonify/v1529355239/vW7acWlWSk6m3e6HuxsQ_corn.jpg.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        text-transform: uppercase;
+        font-weight: bolder;
+  }
+  
+  .w3-olive{
+    color: olive;
+  }
+  /*navBar end/////////////////////////////////////////////////////////*/
