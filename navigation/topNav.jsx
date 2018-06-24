@@ -1,6 +1,6 @@
 //populate top navigation bar items
 
-const navList = ['about us','services','products', 'news','men at work','contact us'];
+const navList = ['about','services','products', 'news','men at work','contact'];
 
 const Nav = (props)=>{
     let navItems = navList.map((item,i)=>{
@@ -14,6 +14,7 @@ const Nav = (props)=>{
 
 
 // navigation bar comp
+
 const NavBar = (props) =>{
     return(
         <div id='one' className='w3-padding w3-cell-row'>
@@ -26,6 +27,5 @@ const NavBar = (props) =>{
   
   ReactDOM.render(<NavBar/>, document.getElementById('navBar'));
 
-//1-logo re to be replaced by actual waterflo logo
+//1-logo to be replaced by actual waterflo logo
 //2-background not showing as intended in codepen full screen mode
-/////////////////////////////////
