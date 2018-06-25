@@ -1,11 +1,15 @@
-html{
-    background: black;
+body{
+  background: black;
+  font-family: Helvetica;
   }
-  
-  #container{
-    width:50%;
-    margin:auto;
-    font-variant:small-caps;
-    font-weight: bolder;
-    font-family: Helvetica;
-  }
+
+div#slider{
+  width:80%;
+  margin:auto;
+}
+
+div#containerDiv{
+  width:80%;
+  margin:auto;
+  background: linear-gradient(to right, white, grey, olive); 
+}
