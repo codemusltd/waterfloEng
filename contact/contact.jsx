@@ -10,3 +10,8 @@ const Contact = (props)=>{
             <Visit />
           </div>);
 }
+
+ReactDOM.render(
+  <Contact />,
+  document.getElementById('contact')
+);
