@@ -11,5 +11,51 @@ div#slider{
 div#containerDiv{
   width:80%;
   margin:auto;
-  background: linear-gradient(to right, white, grey, olive); 
+  background: linear-gradient(to left, black, grey, black); 
+}
+
+button{
+  background: linear-gradient(to right,olive,  grey, olive);
+  opacity:0.3;
+  border: none;
+}
+/**/
+div#tableContainer{
+ margin:auto;
+ background: linear-gradient(to right, white, grey, olive); 
+}
+/* 
+div#tableContainer div:nth-child(1)>table{
+ 
+}
+
+div#tableContainer div:nth-child(2){
+
+} */
+
+/*hhhhh*/
+
+#mainTableContainer{
+    height: 100%;
+    width: 100%;
+    display: table;
+    height: 100%;
+    width: 50%;
+    margin:auto;
+  }
+
+  #tableContainer{
+    vertical-align: middle;
+    display: table-cell;
+  }
+
+  /* #tableContainer table{
+  } */
+
+.w3-s-caps{
+  font-variant: small-caps;
+}
+
+.w3-bolder{
+  font-weight: bolder;
 }
