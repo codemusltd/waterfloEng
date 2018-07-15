@@ -1,7 +1,6 @@
 import {Service} from './services';
 
 const serviceList = [
-  'http://res.cloudinary.com/fatso/image/upload/v1523744319/Waterflo/services/33.jpg',
   'http://res.cloudinary.com/fatso/image/upload/v1523744319/Waterflo/services/28.jpg',
   'http://res.cloudinary.com/fatso/image/upload/v1523744314/Waterflo/services/36.jpg',
   'http://res.cloudinary.com/fatso/image/upload/v1523744312/Waterflo/services/31.jpg',
@@ -28,6 +27,7 @@ const serviceList = [
   'http://res.cloudinary.com/fatso/image/upload/v1523744236/Waterflo/services/40.jpg',
   'http://res.cloudinary.com/fatso/image/upload/v1523744236/Waterflo/services/10.jpg',
   'http://res.cloudinary.com/fatso/image/upload/a_90/v1523744231/Waterflo/services/37.jpg',
+  'http://res.cloudinary.com/fatso/image/upload/v1523744320/Waterflo/services/34.jpg'
 ];
 
 let num = 0;

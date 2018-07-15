@@ -1,81 +1,141 @@
 body{
-  font-size: 16x;
-  background: linear-gradient(to right, white, grey, olive); 
-}
-  
-.w3-helvetica {
-font-family: helvetica;
-}
-
-h3{
-color:silver ;
-font-variant: small-caps;
-text-shadow: 0.1rem 0.1rem 0.1rem black;
-text-align: left;
-}
-
-.h3border{
-margin: 2em;
-}
-
-.w3-capitalize{
-font-variant:small-caps;
-font-weight:bolder;
-border-left: 0.8em solid white;
-text-decoration: overline;
-}
-
-ul{
-list-style-type: none;
-}
-
-li{
-margin-top: 0.5em;
-}
-
-ul#productList{
-      background-image:url('https://images.unsplash.com/photo-1518931169559-527a99b4074d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e24624500cccbb137f3a61d1f5e0b23a&auto=format&fit=crop&w=1868&q=80');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-}
-
-.w3-list-item{
-width:7em;
-font-variant: small-caps;
-background: black
-}
-
-
-.w3-t-shadow-1{
-text-shadow: 0.1em -0.1em 1em white
-}
-
-
-/*services*/
-/* .w3-center-align{
-text-align: center;
-} */
-
-.w3-list-item-services{
-width:20em;
-font-variant: small-caps;
-background: black; 
-}
-
-ul#serviceList{
-       background:url('https://images.unsplash.com/photo-1453161535619-303d362ea39f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e854026d847ab62f9bab035fb70d1f90&auto=format&fit=crop&w=1050&q=80');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-}
-
-
-/*contact*/
-.w3-center-align{
-text-align: center;  
-}
-
-.hiddenVisibility{
-visibility: hidden;
-}
+      font-size: 16x;
+      background: linear-gradient(to right, white, grey, olive); 
+      font-family: Helvetica;
+    }
+      
+    .w3-helvetica {
+    font-family: helvetica;
+    }
+    
+    /* sticky social bar */
+      
+        .icon-bar {
+          position: fixed;
+          top: 50%;
+          right:0px;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          opacity:0.5;
+        }
+        
+        .icon-bar a {
+          display: block;
+          text-align: center;
+          padding: 16px;
+          transition: all 0.3s ease;
+          color: white;
+          font-size: 20px;
+        }
+        
+        .icon-bar a:hover {
+            background-color: #000;
+        }
+    /*     
+        .facebook {
+          background: #3B5998;
+          color: white;
+        } */
+        
+    /*     .twitter {
+          background: #55ACEE;
+          color: white;
+        } */
+        
+        .google {
+          background: #dd4b39;
+    /*       color: white; */
+        }
+        
+        .linkedin {
+          background: #007bb5;
+          color: white;
+        }
+        
+        /* .youtube {
+          background: #bb0000;
+          color: white;
+        } */
+    /* sticky social bar END*/ 
+    
+    h3{
+    color:silver ;
+    font-variant: small-caps;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    text-align: left;
+    }
+    
+    .h3border{
+    margin: 2em;
+    }
+    
+    .w3-capitalize{
+    font-variant:small-caps;
+    font-weight:bolder;
+    border-left: 0.8em solid white;
+    text-decoration: overline;
+    }
+    
+    ul{
+      list-style-type: none;
+    }
+    
+    li{
+      margin-top: 0.5em;
+      background: rgba(178, 215, 206, 0.42);
+      font-family: DauphinPlain;
+    }
+    
+    ul#productList{
+          background-image:url('https://images.unsplash.com/photo-1518931169559-527a99b4074d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e24624500cccbb137f3a61d1f5e0b23a&auto=format&fit=crop&w=1868&q=80');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+    }
+    
+    .w3-list-item{
+    width:7em;
+    /* font-variant: small-caps; */
+    background: black;
+    }
+    
+    
+    .w3-t-shadow-1{
+    text-shadow: 0.1em -0.1em 1em white
+    }
+    
+    
+    /*services*/
+    /* .w3-center-align{
+    text-align: center;
+    } */
+    
+    .w3-list-item-services{
+    width:20em;
+    /* font-variant: small-caps; */
+    background: black; 
+    }
+    
+    ul#serviceList{
+           background:url('https://images.unsplash.com/photo-1453161535619-303d362ea39f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e854026d847ab62f9bab035fb70d1f90&auto=format&fit=crop&w=1050&q=80');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+    }
+    
+    
+    /*contact*/
+    .w3-center-align{
+    text-align: center;  
+    }
+    
+    .hiddenVisibility{
+    visibility: hidden;
+    }
+    
+      /* bottomnav START*/
+      img#codemusLogo{
+        width:2em;
+        height:2em;
+      }
