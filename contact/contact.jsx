@@ -1,17 +1,17 @@
-import React from 'react';
-import {Phone} from './phone';
-import {Email} from './email';
-import {Visit} from './visit';
+// import React from 'react';
+// import {Phone} from './phone';
+// import {Email} from './email';
+// import {Visit} from './visit';
 
-const Contact = (props)=>{
-  return (<div id='contactContainer'>
-            <Phone />
-            <Email />
-            <Visit />
-          </div>);
-}
+// const Contact = (props)=>{
+//   return (<div id='contactContainer'>
+//             <Phone />
+//             <Email />
+//             <Visit />
+//           </div>);
+// }
 
-ReactDOM.render(
-  <Contact />,
-  document.getElementById('contact')
-);
+// ReactDOM.render(
+//   <Contact />,
+//   document.getElementById('contact')
+// );
