@@ -1,7 +1,7 @@
 body{
   background: black;
   font-family: Helvetica;
-  }
+}
 
 div#slider{
   width:80%;
@@ -19,38 +19,25 @@ button{
   opacity:0.3;
   border: none;
 }
-/**/
+
 div#tableContainer{
- margin:auto;
- background: linear-gradient(to right, white, grey, olive); 
+  margin:auto;
+  background: linear-gradient(to right, white, grey, olive); 
 }
-/* 
-div#tableContainer div:nth-child(1)>table{
- 
-}
-
-div#tableContainer div:nth-child(2){
-
-} */
-
-/*hhhhh*/
 
 #mainTableContainer{
-    height: 100%;
-    width: 100%;
-    display: table;
-    height: 100%;
-    width: 50%;
-    margin:auto;
-  }
+  height: 100%;
+  width: 100%;
+  display: table;
+  height: 100%;
+  width: 50%;
+  margin:auto;
+}
 
-  #tableContainer{
-    vertical-align: middle;
-    display: table-cell;
-  }
-
-  /* #tableContainer table{
-  } */
+#tableContainer{
+  vertical-align: middle;
+  display: table-cell;
+}
 
 .w3-s-caps{
   font-variant: small-caps;
