@@ -1,6 +1,6 @@
 body{
   font-size: 16x;
-  background: linear-gradient(to right, white, grey, olive); 
+/*   background: linear-gradient(to right, white, grey, olive);  */
   font-family: Helvetica;
 }
       
@@ -94,6 +94,11 @@ img.product{
   width:50%;
   margin:auto;
 }
+@media only screen and (max-width: 600px) {
+  h3.'w3-center', mark.'w3-center'{
+    visibility: hidden;
+  }
+} 
 
 /*services*/
 .w3-list-item-services{
@@ -109,7 +114,10 @@ ul#serviceList{
   background-size: cover;
 }
 
-
+img.service{
+  width:50%;
+  margin:auto;
+}
 /*contact*/
 .w3-center-align{
   text-align: center;  
@@ -119,8 +127,22 @@ ul#serviceList{
   visibility: hidden;
 }
 
+  /* google map */
+   .gmap_canvas{
+    width:70%;
+    margin:auto;
+    padding: 10px;
+    overflow:hidden;
+    background:none!important;
+  }
+
   /* bottomnav */
 img#codemusLogo{
   width:2em;
   height:2em;
 }
+ 
+  /* contact END*/
+
+
+  
