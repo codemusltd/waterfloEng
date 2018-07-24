@@ -1,11 +1,16 @@
 body{
   font-size: 16x;
-/*   background: linear-gradient(to right, white, grey, olive);  */
+  /*   background: linear-gradient(to right, white, grey, olive);  */
   font-family: Helvetica;
 }
-      
+
+.gaegu{
+  font-family: 'Gaegu', cursive;
+  font-weight: bolder;
+} 
+
 .w3-helvetica {
-font-family: helvetica;
+  font-family: helvetica;
 }
 
 /* sticky social bar */ 
@@ -16,7 +21,7 @@ font-family: helvetica;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  opacity:0.5;
+  opacity:0.7;
 }
 
 .icon-bar a {
@@ -34,17 +39,24 @@ font-family: helvetica;
 
 .google {
   background: #dd4b39;
-/*       color: white; */
 }
-    
+
 .linkedin {
   background: #007bb5;
   color: white;
 }
-/* sticky social bar END*/ 
 
+/*history*/
+  .w3-hide{
+  display: block;
+}
 
 /* products */
+.carousel-inner{
+  width:80%;
+  margin:auto;
+}
+
 h3{
   color:silver ;
   font-variant: small-caps;
@@ -63,26 +75,28 @@ h3{
   text-decoration: overline;
 }
 
-ul{
-  list-style-type: none;
-}
-
 li{
-  margin-top: 0.5em;
+  margin-top: 0.3em;
   background: rgba(178, 215, 206, 0.42);
 }
 
+div#myCarouselProduct{
+  width:70%;
+  margin:auto;
+}
+
 ul#productList{
-  background-image:url('https://images.unsplash.com/photo-1518931169559-527a99b4074d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e24624500cccbb137f3a61d1f5e0b23a&auto=format&fit=crop&w=1868&q=80');
+/*   background-image:url('https://images.unsplash.com/photo-1518931169559-527a99b4074d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e24624500cccbb137f3a61d1f5e0b23a&auto=format&fit=crop&w=1868&q=80'); */
+  background-image:url('http://res.cloudinary.com/fatso/image/upload/v1532456066/Waterflo/products.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 90% 90%;
+  border-radius:10px;
 }
 
 .w3-list-item{
-  width:7em;
-  /* font-variant: small-caps; */
-  background: black;
+  width:9em;
+/* font-variant: small-caps; */
 }
 
 
@@ -94,32 +108,34 @@ img.product{
   width:50%;
   margin:auto;
 }
-@media only screen and (max-width: 600px) {
-  h3.'w3-center', mark.'w3-center'{
-    visibility: hidden;
-  }
-} 
 
 /*services*/
+div#myCarouselService{
+  width:70%;
+  margin:auto;
+}
+
 .w3-list-item-services{
   width:20em;
-/* font-variant: small-caps; */
   background: black; 
 }
 
 ul#serviceList{
-  background:url('https://images.unsplash.com/photo-1453161535619-303d362ea39f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e854026d847ab62f9bab035fb70d1f90&auto=format&fit=crop&w=1050&q=80');
+  background:url('http://res.cloudinary.com/fatso/image/upload/v1532469677/Waterflo/irrigationSystemsrv.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 70% 90%;
+  border-radius:10px;
+  margin-left:2.5%;
 }
 
 img.service{
   width:50%;
   margin:auto;
 }
+
 /*contact*/
-.w3-center-align{
+  .w3-center-align{
   text-align: center;  
 }
 
@@ -127,22 +143,29 @@ img.service{
   visibility: hidden;
 }
 
-  /* google map */
-   .gmap_canvas{
-    width:70%;
-    margin:auto;
-    padding: 10px;
-    overflow:hidden;
-    background:none!important;
-  }
+/* google map */
+.gmap_canvas{
+  width:70%;
+  margin:auto;
+  padding: 10px;
+  overflow:hidden;
+  background:none!important;
+}
 
-  /* bottomnav */
+/* bottomnav */
 img#codemusLogo{
   width:2em;
   height:2em;
 }
- 
-  /* contact END*/
+
+span#enquiryForm{
+  background: rgb(0,255,255, 0.2)
+}
+/* contact END*/
+
+w3-borderless{
+  border: none;
+}
 
 
-  
+

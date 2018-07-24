@@ -8,28 +8,37 @@
         <title>Waterflo Engineering</title>
         <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <link href='https://fonts.googleapis.com/css?family=Gaegu' rel='stylesheet'> 
+        <link href='https://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet'> 
         <link rel='stylesheet' href='./main.css'>
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
         <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
     </head>
-    <body class=''>
+    <body class='w3-section w3-light-grey w3-round-xxlarge gaegu'>
 
-        <div class='container'>
+        <div class='container w3-sand w3-section w3-round-large'>
             <!-- navigation bar ||START|| -->
             <nav class='navbar'>
                 <div class='container-fluid'>
                     <div class='navbar-header'>
                         <a class='navbar-brand w3-text-black'>Welcome to 
-                            <span class='w3-lime'>WaterFlo Engineering</span>
+                            <mark class='text-uppercase gaegu w3-text-grey' style='font-size:2em;'>WaterFlo Engineering</mark>
                         </a>
                     </div>
-                    <ul class='nav navbar-nav'>
-                        <li class=''><a href='#'>Home</a></li>
-                        <li class=''><a href='#services'>Services</a></li>
-                        <li class=''><a href='#products'>Products</a></li>
-                        <li class=''><a href='#contact'>Contact</a></li>
-                       <!-- <li class=''><a href='#staff'>Men at work</a></li> -->
+                    <ul class='nav navbar-nav w3-grey'>
+                        <li class='w3-light-grey gaegu '>
+                            <a href='#'>Home</a>
+                        </li>
+                        <li class='w3-light-grey gaegu'>
+                            <a href='#products'>Products</a>
+                        </li>
+                        <li class='w3-light-grey gaegu'>
+                            <a href='#services'>Services</a>
+                        </li>
+                        <li class='w3-light-grey gaegu'>
+                            <a href='#contact'>Contact</a>
+                        </li>               
                     </ul>
                 </div>
             </nav>
@@ -37,7 +46,7 @@
     
             
             <!-- social media bar ||START|| -->  
-            <div class='icon-bar'>
+            <div class='icon-bar w3-sand w3-round-large'>
                 <a href='https://www.facebook.com/Waterfloengineering/' target='_blank' class='facebook w3-dark-grey w3-text-blue w3-circle'>
                     <i class='fa fa-facebook'></i>
                 </a> 
@@ -54,18 +63,23 @@
             <!-- social media bar ||END|| -->
             
             <!-- announcement ||START|| -->
-            <div id='announcement' class='container'>
-                <div class='alert alert-info alert-dismissible fade in w3-margin-right'>
-                <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-                <strong>Announcement!</strong> Congrats to staff for job WELL DONE. Next project @ Kariba Island: 25th July 2018. See you then :)
+            <div id='announcement' class='container '>
+                <div class='alert alert-dismissible fade in w3-margin-right w3-light-grey w3-text-black'>
+                <a href='#' class='close badge w3-small w3-black' data-dismiss='alert' aria-label='close'>&times;</a>
+                <strong class='alefrt alert-danger gaegu'>Announcement!</strong> Congrats to staff for job WELL DONE. Next project @ Kariba Island: 25th July 2018. See you then :)
                 </div>
-            </div>           
+            </div> 
+            <br/>
             <!-- announcement ||END|| -->
 
 
             <!-- history  ||START|| -->
-            <h3 class='w3-col w3-border-black w3-leftbar h3border w3-text-black'>history</h3>
-            <p id='pee' class='w3-card w3-panel w3-col  w3-black w3-border-dark-grey w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-padding-32 w3-text-white w3-margin-left'>
+            <h3 id='button' class='w3-col w3-border-grey w3-leftbar h3border w3-text-grey gaegu'>history 
+                <span id='hand' class='w3-small fa fa-hand-o-left w3-black w3-text-white'>
+                    hide me
+                </span>
+            </h3>
+            <p id='hiStory' class='w3-panel w3-col alert w3-padding-32 w3-light-grey w3-text-black'>
                 <span class='w3-capitalize w3-border-grey w3-rightbar w3-bottombar'>Waterflo Engineering</span> was initially founded in the late 
                 <span id ='sixties'>60s</span> as 
                 <span id='lacoste'> Lacoste Irrigation</span>. 
@@ -83,51 +97,48 @@
             </p>
             <!-- history ||END|| -->
         
-        
+
+            <div class='section'>&nbsp;</div>
+            <br/>
             <!-- products ||START|| -->
-            <h3 id='products' class='w3-col w3-text-black w3-border-black w3-leftbar h3border'>products</h3>
-            <ul id='productList' class='list-group w3-hover-shadow w3-card w3-panel w3-col  w3-black w3-border-grey w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-padding-32 w3-margin-left w3-text-white'>
+            <h3 id='products' class='w3-col w3-text-grey w3-border-grey w3-leftbar h3border gaegu'>products</h3>
+            <ul id='productList' class='list-group w3-hover-shadow w3-panel w3-col w3-padding-32  w3-text-white'>
                 <span class='w3-sand'>
-                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
-                        pipes
+                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
+                      <span class='w3-border-grey w3-topbar'>pipes</span>
                     </li>
-                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                         pumps
                     </li>
-                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                         sprinklers
                     </li>
-                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                         hoses
                     </li>
-                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                         generators
                     </li>
-                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
-                        spreaders
-                    </li>
-                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                         valves
                     </li>
-                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                    <li class='list-group-item w3-list-item w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                         fittings
                     </li>
                 </span>
             </ul>
                
             <!--products carousel ||START||-->  
-            <div class='container w3-card'>
-                <h2 class='w3-center'>Check out some of our products:</h2>
+            <div class='container w3-padding'>             
             
                 <!--warning||START||-->
-                <div class='well w3-center w3-teal'>
-                    <mark class='w3-lime'>Please note that for all products, the following apply</mark>  
+                <div class='w3-panel w3-center'>
+                    <h4 class='w3-padding'>All products are:</h4> 
                     <ul class='w3-section'>
-                    <li class='badge w3-center'>Manufactured on order</li>
-                    <li class='badge w3-center'>Brand new </li>
-                    <!-- <li class='badge w3-center'>Dimensions: to be confirmed on order</li> -->
-                    <li class='badge w3-center'>Made to customer specification</li>  
-                    <ul>
+                        <li class='badge w3-center w3-grey'>brand new </li>
+                        <li class='badge w3-center w3-grey'>manufactured on order</li>
+                        <li class='badge w3-center w3-grey'>made to customer specification</li>  
+                    </ul>
                 </div>
                 <!--warning||END|-->
                     
@@ -135,22 +146,22 @@
                 <div id='myCarouselProduct' class='carousel slide' data-ride='carousel'>
                     <!-- Indicators -->
                     <ol class='carousel-indicators'>
-                    <li data-target='#myCarouselProduct' data-slide-to='0' class='active'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='1'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='2'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='3'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='4'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='5'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='6'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='7'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='8'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='9'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='10'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='11'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='12'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='13'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='14'></li>
-                    <li data-target='#myCarouselProduct' data-slide-to='15'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='0' class='active'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='1'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='2'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='3'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='4'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='5'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='6'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='7'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='8'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='9'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='10'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='11'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='12'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='13'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='14'></li>
+                        <li data-target='#myCarouselProduct' data-slide-to='15'></li>
                     </ol>
                 
                     <!-- Wrapper for slides -->
@@ -339,65 +350,67 @@
             <!-- products ||END|| -->
                     
             <!-- space ||START|| -->
-                <div class='w3-section'>
-                <hr/>
-                </div>
-                <div class='w3-section'>
-                <hr/>
-                </div>
+            <div class='section'>&nbsp;</div><br/>
+            <div class='section'>&nbsp;</div><br/>
             <!-- space ||START|| -->
                     
     
             <!-- services ||START||-->
             <h3 id='services' class='w3-col w3-text-black'>
-                <span class='w3-border-black w3-leftbar h3border'>services</span>
+                <span class='w3-border-grey w3-leftbar h3border w3-text-grey gaegu'>services</span>
+                <div class='section'>&nbsp;</div><br/>
             </h3>
-            <ul id='serviceList' class='list-group w3-hover-shadow w3-card w3-panel w3-col  w3-black w3-border-grey w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-padding-32 w3-margin-left w3-text-white'>
-                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+            <ul id='serviceList' class='list-group w3-panel w3-col w3-padding-32 w3-text-white'>
+                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                 Turn key projects
                 </li>
-                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-white w3-round-large'>
+                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-large'>
                 Pressurized irrigation systems
                 </li>
-                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-white w3-round-large'>
+                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-large'>
                 Portable and semi portable sprinkler systems
                 </li>
-                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                 Drip irrigation systems
                 </li>
-                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                 Surface irrigation systems
                 </li>
-                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                 Design and construction of water conveyance canals
                 </li>
-                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                 Water supply systems
                 </li>
-                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-white w3-round-medium'>
+                <li class='list-group-item w3-list-item-services w3-left-align w3-t-shadow-1 w3-grey w3-text-white w3-round-medium'>
                 Design and installation of water supply systems: Pump stations, pipelines, reservoirs etc
                 </li> 
             </ul>
                     
                     
-             <!--services carousel ||START||-->
-        
+            <!--services carousel ||START||-->
+            <div class='section'>&nbsp;</div>
+            <br/>
             <div class='container'>
-                <h2 class='w3-center'>Check out some of our services:</h2>
+                <p class='w3-center'>
+                    <span class='badge w3-grey'>Check out some of our services:</span>
+                </p>
+                <div class='section'>&nbsp;</div>
+                <br/>
                 <div id='myCarouselService' class='carousel slide' data-ride='carousel'>
     
                     <!-- Indicators -->
                     <ol class='carousel-indicators'>
-                    <li data-target='#myCarouselService' data-slide-to='0' class='active'></li>
-                    <li data-target='#myCarouselService' data-slide-to='1'></li>
-                    <li data-target='#myCarouselService' data-slide-to='2'></li>
-                    <li data-target='#myCarouselService' data-slide-to='3'></li>
-                    <li data-target='#myCarouselService' data-slide-to='4'></li>
-                    <li data-target='#myCarouselService' data-slide-to='5'></li>
-                    <li data-target='#myCarouselService' data-slide-to='6'></li>
-                    <li data-target='#myCarouselService' data-slide-to='7'></li>
-                    <li data-target='#myCarouselService' data-slide-to='8'></li>
-                    <li data-target='#myCarouselService' data-slide-to='9'></li>
+                        <li data-target='#myCarouselService' data-slide-to='0' class='active'></li>
+                        <li data-target='#myCarouselService' data-slide-to='1'></li>
+                        <li data-target='#myCarouselService' data-slide-to='2'></li>
+                        <li data-target='#myCarouselService' data-slide-to='3'></li>
+                        <li data-target='#myCarouselService' data-slide-to='4'></li>
+                        <li data-target='#myCarouselService' data-slide-to='5'></li>
+                        <li data-target='#myCarouselService' data-slide-to='6'></li>
+                        <li data-target='#myCarouselService' data-slide-to='7'></li>
+                        <li data-target='#myCarouselService' data-slide-to='8'></li>
+                        <li data-target='#myCarouselService' data-slide-to='9'></li>
                     </ol>
                     
                     <!-- Wrapper for slides -->
@@ -525,26 +538,26 @@
                 
             <!-- contact section ||START|| -->
             <div id='contact' class='w3-panel w3-center w3-margin-left'>
-                <h4>Contact Waterflo Engineering:</h4>
+                <h4 class='badge w3-grey'>Contact Waterflo Engineering:</h4>
                 
                 <!-- space -->
                 <div class='space'></div>
                 
                 <div id='call' class='w3-center'>
                     <p>
-                        <span class='fa fa-phone-square w3-red w3-section w3-large'></span> &nbsp; 0774356546
+                        <span class='fa fa-phone-square w3-black w3-section w3-large'></span> &nbsp; 0774356546
                     </p>
                 </div>
                 <br/>
                 <div id='email' class='w3-center'>
                     <p>
-                        <span class='fa fa-envelope-square w3-red w3-section w3-large'></span> &nbsp; bmadamba11@gmail.com
+                        <span class='fa fa-envelope-square w3-black w3-section w3-large'></span> &nbsp; bmadamba11@gmail.com
                     </p>
                 </div>
                 <br/>
                 <div id='form' class='w3-center'>
-                    <span class='w3-btn w3-green w3-hover-blue-grey w3-border-red w3-topbar w3-bottombar w3-margin-bottom'>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSe6mGSF5zAmkiY9_m1ofvY2t9WHYR_-6iavnHFkBKuFNOWHrw/viewform?c=0&w=1' target='_blank' class='w3-text-white'>Enquiry Form</a>
+                    <span id='enquiryForm' class='w3-btn w3-hover-blue-grey w3-border-grey w3-topbar w3-bottombar w3-margin-bottom alert-info'>
+                        <a  href='https://docs.google.com/forms/d/e/1FAIpQLSe6mGSF5zAmkiY9_m1ofvY2t9WHYR_-6iavnHFkBKuFNOWHrw/viewform?usp=sf_link' target='_blank' class='w3-text-black'>Enquiry Form</a>
                     </span>
                 </div>
             </div>
@@ -572,12 +585,12 @@
             <br/><br/><br/><br/><br/>
             <!--bottom nav ||START||-->
             <div id='bottomNav' class='w3-cell-row'>
-                <div class='w3-cell col-xs-12' style='text-align:leftt'>
-                    &copy;WaterFlo Engineering 2018
+                <div class='w3-cell col-xs-12' style='text-align:left'>
+                  <span class='w3-text-grey'>&copy;</span>WaterFlo Engineering 2018
                 </div>
                 <div class='w3-cell cols-xs-12' style='text-align:right'>
                     By  <a href='http://www.codemusltd.com' target='_blank'>
-                             <img id='codemusLogo' class='img-thumbnail w3-black' src='http://res.cloudinary.com/fatso/image/upload/v1524523299/codemus/logo.png' alt='codemus logo'/>
+                             <img id='codemusLogo' class='img-thumbnail w3-grey' src='http://res.cloudinary.com/fatso/image/upload/v1524523299/codemus/logo.png' alt='codemus logo'/>
                         </a>
                 </div>
             </div>
@@ -585,4 +598,14 @@
         </div>
     
     </body>
+
+    <!--history paragraph toggle effect ||START||-->
+    <script>
+        $(document).ready(function(){
+            $('#button').click(function(){
+                $('#hiStory').fadeToggle('slow');
+                $('#hand').text()=== 'show me'? $('#hand').text('hide me'):$('#hand').text('show me');
+            });
+        });
+    </script>
 </html>       
